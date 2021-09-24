@@ -9,8 +9,8 @@
  - Habilitar buscador de Endpoints 
  - Versionado de API
  - Documentación de los endpoints (Comentarios en los Controllers. ProducesResponseTypeAttribute)
- - Inyectar archivo CSS
- - Inyectar archivo JS
+ - Inyectar archivo CSS 
+ - Inyectar archivo JS (Cambiar el logo en SwaggerUI)
  - OperationId
  - Ignorar endpoints especificos
  - Ignorar endpoints obsoletos
@@ -19,3 +19,6 @@
  - Request Interceptor
  - Response Interceptor
  - Middleware para segurizar SwaggerUI con el esquema Basic en ambientes Productivos o QA
+
+![image](https://user-images.githubusercontent.com/28534415/134708294-5e402d72-797c-4363-819c-397b5131dd04.png)
+
