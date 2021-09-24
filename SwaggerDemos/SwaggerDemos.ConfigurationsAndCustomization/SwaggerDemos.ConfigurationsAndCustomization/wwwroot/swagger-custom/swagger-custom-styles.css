@@ -1,0 +1,12 @@
+﻿.swagger-ui .topbar {
+    background: #000;
+}
+
+
+.swagger-ui .opblock {
+    border-radius: 14px;
+}
+
+    .swagger-ui .opblock .opblock-summary-method {
+        border-radius: 14px;
+    }
