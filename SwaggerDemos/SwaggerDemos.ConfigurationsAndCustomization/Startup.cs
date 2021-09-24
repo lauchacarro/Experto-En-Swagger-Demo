@@ -110,8 +110,12 @@ namespace SwaggerDemos.ConfigurationsAndCustomization
             {
                 app.UseDeveloperExceptionPage();
             }
-
-            app.UseMiddleware<SwaggerBasicAuthMiddleware>();
+            else
+            {
+                //Solo para Producción o QA
+                app.UseMiddleware<SwaggerBasicAuthMiddleware>();
+            }
+            
 
             app.UseStaticFiles();
             app.UseSwagger(c =>

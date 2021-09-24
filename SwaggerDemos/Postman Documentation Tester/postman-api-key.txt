@@ -1,7 +1,0 @@
-PMAK-613d9d065ba8e700518bdc81-86789d3af5b0269d96860e695094962173
-
-
-npx @syngenta-digital/pdt --collection-id  6250973-6c984c68-785b-4f62-a1f1-6853f5e8a244 --doc-path algeibago.json --api-key PMAK-613d9d065ba8e700518bdc81-86789d3af5b0269d96860e695094962173 --push -clean-up
-
-
-newman run "https://api.getpostman.com/collections/6250973-6c984c68-785b-4f62-a1f1-6853f5e8a244?apikey=PMAK-613d9d065ba8e700518bdc81-86789d3af5b0269d96860e695094962173" -e "https://api.getpostman.com/environments/6250973-56f17173-633e-4b63-ad26-3c969aca2cdf?apikey=PMAK-613d9d065ba8e700518bdc81-86789d3af5b0269d96860e695094962173"
