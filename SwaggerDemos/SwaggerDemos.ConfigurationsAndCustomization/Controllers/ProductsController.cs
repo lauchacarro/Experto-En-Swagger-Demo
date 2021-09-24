@@ -82,7 +82,7 @@ namespace SwaggerDemos.ConfigurationsAndCustomization.Controllers
         [Authorize]
         public IActionResult Delete(int id)
         {
-            return Ok();
+            return NoContent();
         }
 
         /// <summary>
@@ -97,7 +97,7 @@ namespace SwaggerDemos.ConfigurationsAndCustomization.Controllers
         [Obsolete]
         public IActionResult DeleteAll()
         {
-            return Ok();
+            return NoContent();
         }
     }
 }
