@@ -19,6 +19,8 @@
  - Request Interceptor
  - Response Interceptor
  - Middleware para segurizar SwaggerUI con el esquema Basic en ambientes Productivos o QA
+ - [Analizadores para las convenciones de API web](https://docs.microsoft.com/aspnet/core/web-api/advanced/analyzers)
+
 
 ![image](https://user-images.githubusercontent.com/28534415/134708294-5e402d72-797c-4363-819c-397b5131dd04.png)
 
